@@ -1,0 +1,587 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Libre+Caslon+Text:ital@1&family=Noto+Sans+JP:wght@300&family=Open+Sans&family=Raleway:ital,wght@1,100&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    box-sizing: border-box;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+  
+    
+}
+
+.body{
+    background-color: rgb(121, 173, 121);
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+.header{
+    background-color: beige;
+    color:rgb(34, 32, 32);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 100vw;
+    padding: 5px 10%;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links a{
+    font-size: 700;
+    text-decoration: none;
+    color: black;
+    font-size: 20px; 
+}
+
+.container{
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+    
+}
+.left {
+   
+    width: 100%;
+    background: url('../imagenes/Coffe-maker.jpg');
+    opacity: 0.6;
+    height: 100%;
+}
+.left .maker{
+    padding: 0px;
+    margin: 0px;
+    width: 100vw; 
+  
+}
+    
+
+
+.comments{
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+   
+    color:rgb(34, 32, 32);
+    padding-top: 20px;
+    background-color: beige;
+
+}
+
+.comments div{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-color: rgb(206, 126, 140);
+    border-radius: 2px;
+    border-style: ridge;
+    border-width: 3px;
+    border-radius: 10px;
+    
+
+}
+
+
+
+.comments div img{
+   
+    max-width: 155px;
+    position: absolute;
+    right: 80px;
+    bottom: 15px;
+    
+
+}
+
+
+
+.text-comment{
+    color:rgb(34, 32, 32);;
+    margin-left: 10px;
+    margin-top: 20px;
+    align-items: center;
+    font-size: medium;
+    background-color: beige;
+}
+
+
+
+
+.text-c{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    text-align: center;
+    left: 0;
+    top:0;
+    
+   
+}
+.text-c h1{
+
+    color:rgb(34, 32, 32);
+    font-size: 87px;
+    margin-top: 30px;
+
+
+}
+#footer{
+
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: beige;
+    padding-top: 30px;
+}
+/* Celullar index*/
+@media (max-width:576px) {
+    
+    .text-c h1{
+        font-size: 50px;
+        margin-top: 180px;
+    
+    
+    }
+    
+    .comments{
+        flex-direction: column;
+    }
+    
+    .comments div{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+    
+
+
+}
+
+/* tablet index*/
+@media (min-width:577px) and (max-width:768px){
+    
+    .text-c h1{
+        font-size: 70px;
+        padding-bottom: 100%;
+        text-align: center;
+        align-items: center;}
+}
+
+
+/* NOSOTROS */
+.nosotros{
+    width: 100vw;
+    position: relative;
+    height: 85vh;
+    display: block;
+    clear: both;
+    float: left;
+}
+.banerhistoria{
+    background-image: url("/imagenes/nico-M0yaEhp8KTc-unsplash\ \(1\).jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+   
+}
+
+.textohistoria{
+    width: 100%;
+    position: absolute;
+    height: 70%;
+    text-align: center;
+    left: 0;
+    top:0;
+}
+
+.textohistoria p{
+    width: 60%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    font-size: 20px;
+
+}
+.textohistoria h1{
+    color:rgb(34, 32, 32);
+    font-size: 87px;
+    align-items: center;
+    margin-top: 100px;
+}
+/*nosotros celular  responsive*/
+
+@media (max-width:577px){
+
+    .nosotros{
+        width: 100vw;
+        position: relative;
+        height: 100vh;
+        display: block;
+        clear: both;
+        float: left;
+    }
+    .banerhistoria{
+        background-image: url("/imagenes/nico-M0yaEhp8KTc-unsplash\ \(1\).jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 790px;
+        opacity: .5;
+       
+    }
+    
+    .textohistoria{
+        width: 100%;
+        position: absolute;
+        height: 70%;
+        text-align: center;
+        left: 0;
+        top:0;
+    }
+    
+    .textohistoria p{
+        width: 50%;
+        
+       
+    
+    }
+    .textohistoria h1{
+        font-size: 40px;
+        align-items: center;
+        
+    }
+
+}
+
+/*nosotros tablet responsive*/
+
+@media (min-width:768px) and (max-width:1024px){
+
+    .banerhistoria {
+        
+        background-image:none;
+        background-image: url("/imagenes/nico-M0yaEhp8KTc-unsplash\ \(1\).jpg");
+
+    }
+    
+    .textohistoria p{
+        width: 60%;  
+    
+    }
+    .textohistoria h1{
+        font-size: 100px; }
+
+}
+
+
+
+/* Cafe */
+
+.cafe
+{   width: 100vw;   
+    height: 5px;
+      
+}
+
+.banercafe{
+    background-image: url("/imagenes/cafe-corazon.jpg");
+    opacity: .3;
+    background-size: cover;
+    height: 870px;
+   
+}
+
+
+.text-cafe{
+
+    font-size: 60px;  
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.section-cafe{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin-top: 10px;
+}
+
+.cafe-contenedor{
+    
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    position: relative;
+    padding-bottom: 300px;
+    border: 3px solid rgb(238, 154, 145);
+    border-width: 3px;
+    border-radius: 10px;
+    
+    
+}
+
+.cafe-contenedor p{
+    font-size: 30px; 
+    padding-top: 20px; 
+    padding-left: 5px;
+    
+}
+
+.cafe-img {
+
+    width: 200px;
+    height: 200px;
+    top: 70px;
+    position: relative;
+    display: flex;
+    left: 80px;
+    top: 10px;
+   
+}
+
+/* cafe celular  responsive*/
+
+@media (max-width:577px){
+
+    .banercafe{
+        background-image: url("/imagenes/cafe-corazon.jpg");
+        opacity: .3;
+        background-size: cover;
+        width: 100vw; 
+        height: 2439px;
+    }
+
+    .section-cafe{
+
+        flex-direction: column;
+        
+    }
+
+}
+
+
+
+/*cafe tablet responsive*/
+
+@media (min-width:576px) and (max-width:768px){
+
+    
+.cafe
+{    
+    height: 100vh;
+      
+}
+    .banercafe{
+        width: 10px;
+        height:1000px;
+    
+    }
+
+}
+
+
+/* tazas */
+.container-tazas{
+    width: 100vw;   
+    height: 5px;
+   
+}
+
+.banertazas{
+    
+    background-image: url('/imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg');
+    opacity: .3;
+    background-size: cover;
+    height: 1045px;
+}
+
+.text-tazas{
+    font-size: 60px;  
+    text-align: center;
+    padding-bottom: 10px;
+}
+ 
+.flex-taza{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin-top: 10px;
+}
+
+.box-taza{
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    position: relative;
+    border-color: rgb(206, 126, 140);
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3px;
+
+}
+
+.taza{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 80px;
+    top: 10px;
+    
+}
+.taza-comment{
+    font-size: 30px;
+    position: absolute;
+    padding-top: 300px;
+    padding-left: 5px;
+}
+
+/* tazas celular  responsive*/
+
+@media (max-width:577px){
+    .container-tazas{
+        width: 100vw;   
+        height: 5px;
+       
+    }
+    
+    .banertazas{
+        
+        background-image: url('/imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg');
+        opacity: .3;
+        background-size: cover;
+        height: 2935px;
+    }
+    
+    .text-tazas{
+        font-size: 50px;  
+        text-align: center;
+        padding-bottom: 10px;
+    }
+     
+    .flex-taza{
+        flex-direction: column;
+    }
+    
+    .box-taza{
+        width: 350px;
+    }
+    
+
+}
+
+@media  (min-width:578px) and (max-width:768px){
+
+    .container-tazas{
+        width: 100vw;   
+        height: 100px;
+       
+    }
+
+    .banertazas {
+        
+        background-image: url('/imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg');
+        opacity: .3;
+        background-size: cover;
+        height: 3935px;
+    }
+
+}
+
+ 
+ /* Ubicacion-contacto */
+
+ .contenedor{
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    border: 10px solid blue;
+    padding: 3px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: minmax(80px, 300px) 1fr 1fr 1fr;
+    grid-template-rows: 50px 300px 200px 200px;
+    grid-template-areas:
+    "tres uno uno cuatro" 
+    "tres uno uno cuatro" 
+    "dos uno uno cuatro " 
+    "dos  uno uno cuatro"; 
+}
+
+@media (max-width:577px){
+    .img{
+        display: none;
+    }
+}
+
+ .img{
+    grid-area: uno;
+    background: url("/imagenes/Girl-drinking-coffe.jpg");
+    background-size: cover;
+    background-position: cover;
+    border: 10px solid red;
+    height: 700px;
+    
+ }
+ .coment{
+    
+    grid-area: dos;
+    border: 10px solid blue;
+    height: 300px;
+    text-align: center;
+    padding-bottom: 5px;
+   
+ }
+
+ .tel{
+    grid-area: tres;
+border: 10px solid pink;
+height: 300px;
+text-align: center;
+
+
+ }
+
+ .mapa{
+    grid-area: cuatro;
+    border: 10px solid yellow;
+    height: 350px;
+    text-align: center;
+ }
+
+
+
+
+
+
+
+
+
