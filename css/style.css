@@ -99,7 +99,7 @@
    
 }
 .banerhistoria{
-    background-image: url("/imagenes/nico-M0yaEhp8KTc-unsplash\ \(1\).jpg");
+    background-image: url("../imagenes/nico-M0yaEhp8KTc-unsplash\ \(1\).jpg");
     background-size:cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -163,7 +163,7 @@
 }
 
 .banercafe{
-    background-image: url("/imagenes/cafe-corazon.jpg");
+    background-image: url("../imagenes/cafe-negro.jpg");
     opacity: .3;
     background-size: cover;
     height: 870px;
@@ -227,7 +227,7 @@
 {
     
     .banercafe{
-        background-image: url("/imagenes/cafe-corazon.jpg");
+        background-image: url("../imagenes/cafe-corazon.jpg");
         opacity: .3;
         background-size: cover;
         height: 2500px;
@@ -246,7 +246,7 @@
 
 .banertazas{
     
-    background-image: url('/imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg');
+    background-image: url('../imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg');
     opacity: .3;
     background-size: cover;
     height: 1045px;
@@ -302,7 +302,7 @@
     
     .banertazas{
     
-        background-image: url('/imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg');
+        background-image: url('../imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg');
         opacity: .3;
         background-size: cover;
         height: 2998px;
