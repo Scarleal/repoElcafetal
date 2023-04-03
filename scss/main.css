@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Libre+Caslon+Text:ital@1&family=Noto+Sans+JP:wght@300&family=Open+Sans&family=Raleway:ital,wght@1,100&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  box-sizing: border-box;
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
+
+.body {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer {
+  margin-top: 10px;
+  text-align: center;
+  height: 50px;
+  background-color: beige;
+}
+
+.containernosotros {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.containernosotros .banernosotros {
+  background: url("../imagenes/Coffe-maker.jpg");
+  background-size: cover;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+}
+.containernosotros h1 {
+  color: rgb(249, 249, 238);
+  text-align: center;
+  margin-top: 200px;
+  font-size: 100px;
+}
+
+.commentscontainer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.commentscontainer .textcontainer {
+  margin-top: 10px;
+  height: 300px;
+  width: 300px;
+  border: 3px solid rgb(206, 126, 140);
+  border-radius: 3px;
+}
+.commentscontainer .imgnosotros {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  padding-right: 10px;
+}
+
+#footer {
+  margin-top: 10px;
+  text-align: center;
+  height: 50px;
+  background-color: beige;
+}
+
+.cafe {
+  width: 100vw;
+  height: 5px;
+}
+.cafe .banercafe {
+  background-image: url("/imagenes/cafe-corazon.jpg");
+  opacity: 0.3;
+  background-size: cover;
+  height: 870px;
+}
+
+.text-cafe {
+  font-size: 60px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.section-cafe {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.section-cafe .cafe-contenedor {
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  position: relative;
+  padding-bottom: 300px;
+  border: 3px solid rgb(206, 126, 140);
+  border-width: 3px;
+  border-radius: 10px;
+}
+.section-cafe p {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+.section-cafe img {
+  width: 200px;
+  height: 200px;
+  top: 70px;
+  position: relative;
+  display: flex;
+  left: 80px;
+  top: 10px;
+}
+
+.container-tazas {
+  width: 100vw;
+  height: 5px;
+}
+.container-tazas .banertazas {
+  background-image: url("/imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg");
+  opacity: 0.3;
+  background-size: cover;
+  height: 1045px;
+}
+
+.text-tazas {
+  font-size: 60px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.text-tazas div {
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 400px;
+  height: 400px;
+  margin: 30px;
+  position: relative;
+  border-color: 3px solid rgb(206, 126, 140);
+  border-radius: 10px;
+  border-style: ridge;
+  border-width: 3px;
+}
+.text-tazas img {
+  width: 200px;
+  height: 250px;
+  position: absolute;
+  left: 80px;
+  top: 10px;
+}
+.text-tazas p {
+  font-size: 30px;
+  position: absolute;
+  padding-top: 300px;
+  padding-left: 5px;
+}
+
+.text-tazas {
+  font-size: 60px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.text-tazas .box-taza {
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 400px;
+  height: 400px;
+  margin: 30px;
+  position: relative;
+  border-color: 3px solid rgb(206, 126, 140);
+  border-radius: 10px;
+  border-style: ridge;
+  border-width: 3px;
+}
+.text-tazas .taza {
+  width: 200px;
+  height: 250px;
+  position: absolute;
+  left: 80px;
+  top: 10px;
+}
+.text-tazas .taza-comment {
+  font-size: 30px;
+  position: absolute;
+  padding-top: 300px;
+  padding-left: 5px;
+}/*# sourceMappingURL=main.css.map */

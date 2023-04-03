@@ -1,0 +1,28 @@
+//Common
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    box-sizing: border-box;
+    font-family: $ffamily;
+  
+    
+}
+
+.body{
+
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+   
+}
+#footer{
+    margin-top: 10px;
+    text-align: center;
+    height:50px;
+    background-color:$backgroundcolor;
+    
+    
+}

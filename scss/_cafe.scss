@@ -1,0 +1,59 @@
+//Cafe
+    .cafe
+    {   width: 100vw;   
+        height: 5px;
+
+        .banercafe{
+            background-image: url("/imagenes/cafe-corazon.jpg");
+            opacity: .3;
+            background-size: cover;
+            height: 870px;
+        
+        }
+    }
+
+    .text-cafe{
+
+        font-size: 60px;  
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .section-cafe{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+        margin-top: 10px;
+
+        .cafe-contenedor{
+            border-radius: 10px;
+            margin-top: 10px;
+            width: 350px;
+            height: 350px;
+            margin: 20px;
+            position: relative;
+            padding-bottom: 300px;
+            border: $border;
+            border-width: 3px;
+            border-radius: 10px;  
+        }
+        p{
+            font-size: 30px; 
+            padding-top: 20px; 
+            padding-left: 5px;
+            
+        }
+        img{
+
+            width: 200px;
+            height: 200px;
+            top: 70px;
+            position: relative;
+            display: flex;
+            left: 80px;
+            top: 10px;
+        
+        }
+    }
+

@@ -1,0 +1,53 @@
+    .containernosotros{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        .banernosotros {
+            background: url('../imagenes/Coffe-maker.jpg');
+            background-size: cover;
+            opacity: 0.6;
+            width: 100%;
+            height: 100%;
+        }
+        h1{
+            color:$nosotrosbanercolor;  
+            text-align: center;
+            margin-top: 200px;
+            font-size: 100px;
+        }  
+    }
+
+    .commentscontainer{
+    
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        .textcontainer{
+            margin-top: 10px;
+            height: 300px;
+            width: 300px;
+            border: $border;
+            border-radius: 3px;
+        
+        }
+        .imgnosotros{
+            height: 100px;
+            width: 100px;
+            padding: 10px;
+            padding-right: 10px;
+          
+            
+        }
+        
+    
+    }
+
+    #footer{
+        margin-top: 10px;
+        text-align: center;
+        height:50px;
+        background-color: beige;
+        
+    }

@@ -12,11 +12,11 @@
 }
 
 .body{
-    background-color: rgb(121, 173, 121);
+
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: beige;
+   
 }
 
 
@@ -36,7 +36,7 @@
     height: 100%;
 }
 .banernosotros h1{
-    color:rgb(249, 249, 238);
+    color:rgb(249, 249, 238);  
     text-align: center;
     margin-top: 200px;
     font-size: 100px;

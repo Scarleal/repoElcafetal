@@ -1,0 +1,80 @@
+.container-tazas{
+    width: 100vw;   
+    height: 5px;
+
+    .banertazas{
+        background-image: url('/imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg');
+        opacity: .3;
+        background-size: cover;
+        height: 1045px;
+    }
+   
+}
+
+.text-tazas{
+    font-size: 60px;  
+    text-align: center;
+    padding-bottom: 10px;
+    div{
+        border-radius: 10px;
+        margin-top: 10px;
+        width: 400px;
+        height: 400px;
+        margin: 30px;
+        position: relative;
+        border-color:$border;
+        border-radius: 10px;
+        border-style: ridge;
+        border-width: 3px;
+    
+    }
+    img{
+        width: 200px;
+        height: 250px;
+        position: absolute;
+        left: 80px;
+        top: 10px;
+        
+    }
+    p{  
+        font-size: 30px;
+        position: absolute;
+        padding-top: 300px;
+        padding-left: 5px;
+
+    }
+}
+
+.text-tazas{
+    font-size: 60px;  
+    text-align: center;
+    padding-bottom: 10px;
+    .box-taza{
+        border-radius: 10px;
+        margin-top: 10px;
+        width: 400px;
+        height: 400px;
+        margin: 30px;
+        position: relative;
+        border-color:$border;
+        border-radius: 10px;
+        border-style: ridge;
+        border-width: 3px;
+    
+    }
+    .taza{
+        width: 200px;
+        height: 250px;
+        position: absolute;
+        left: 80px;
+        top: 10px;
+        
+    }
+    .taza-comment{  
+        font-size: 30px;
+        position: absolute;
+        padding-top: 300px;
+        padding-left: 5px;
+
+    }
+}
