@@ -19,6 +19,16 @@
    
 }
 
+.navbotonera{
+    color:rgb(34, 32, 32);
+    background-color: beige;
+    height: 50px;
+    width: 100vw;
+}
+.navbotonera img{
+    height: 20px;
+}
+
 
 .containernosotros{
     display: flex;
@@ -374,15 +384,7 @@ text-align: center;
     background-color: beige;
 }
 
-.navbotonera{
-    color:rgb(34, 32, 32);
-    background-color: beige;
-    height: 50px;
-    width: 100vw;
-}
-.navbotonera img{
-    height: 20px;
-}
+
 
 
  
