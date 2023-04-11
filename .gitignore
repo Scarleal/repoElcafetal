@@ -1,2 +1,7 @@
 .vscode/settings.json
-.vscode/settings.json
+node_modules/
+*.vscode
+*.log
+*.ia
+*.psd
+*.vsc
