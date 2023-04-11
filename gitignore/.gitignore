@@ -3,5 +3,4 @@ node_modules/
 *.log
 *.ia
 *.psd
-
-
+*.vsc
