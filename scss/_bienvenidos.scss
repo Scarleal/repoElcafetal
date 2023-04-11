@@ -5,39 +5,40 @@
    
 
     .banernosotros{
-        background: map-get($map: $imagenes, $key:banernosotros);
+        background: map-get($map: $imagenes, $key:banerhistoria);
         @include tamanios ( 100%, 100%);
-        overflow: hidden;
-        background-size: cover;
+        overflow: scroll;
+        background-size: scroll;
         opacity: 0.6;
         position: relative;
       
     }
 
-        h1 {
-            color:$nosotrosbanercolor;  
-            text-align: center;
-            margin-top: 9px;
-            font-size: 100px;
-        }
-    
-            h2 {
-    
-                color:$nosotrosbanercolor;  
-                text-align: center;
-                margin-top: 15px;
-                font-size: 100px;
-            }
-
-             .waves{
-                    position: absolute;
-                    bottom: 0;
-                    width: 100%;
-                    left: 0;
-                } 
+    h1 {
+        color:$nosotrosbanercolor;  
+        text-align: center;
+        margin-top: 9px;
+        font-size: 100px;
     }
+    
+    h2 {
+
+        color:$nosotrosbanercolor;  
+        text-align: center;
+        margin-top: 15px;
+        font-size: 100px;
+    }
+
+    .waves{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+    } 
+ }
                
-.testimonials{
+.testimonials
+{
 
     padding: 40px 0;
     background-color: white;
@@ -45,14 +46,15 @@
     text-align: center;
     
          
-    .inner{
+    .inner
+    {
         max-width: 1200px;
         margin: auto;
         overflow: hidden;
         padding: 0 20px;
     }
         
-    }
+}
 .border{
         @include tamanios (5px, 160px);
         margin: 26px auto;
