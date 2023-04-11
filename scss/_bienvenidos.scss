@@ -7,8 +7,8 @@
     .banernosotros{
         background: map-get($map: $imagenes, $key:banerhistoria);
         @include tamanios ( 100%, 100%);
-        overflow: scroll;
-        background-size: scroll;
+        overflow: hiden;
+        background-size: cover;
         opacity: 0.6;
         position: relative;
       

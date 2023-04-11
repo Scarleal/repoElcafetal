@@ -39,8 +39,8 @@
   background: url("../imagenes/nico-M0yaEhp8KTc-unsplash (1).jpg");
   height: 100%;
   width: 100%;
-  overflow: scroll;
-  background-size: scroll;
+  overflow: hiden;
+  background-size: cover;
   opacity: 0.6;
   position: relative;
 }
