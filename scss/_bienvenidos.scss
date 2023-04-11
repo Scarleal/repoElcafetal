@@ -1,0 +1,101 @@
+.containernosotros{
+    display: flex;
+    @include tamanios(100vh, 100%);
+   
+   
+
+    .banernosotros{
+        background: map-get($map: $imagenes, $key:banernosotros);
+        @include tamanios ( 100%, 100%);
+        overflow: hidden;
+        background-size: cover;
+        opacity: 0.6;
+        position: relative;
+      
+    }
+
+        h1 {
+            color:$nosotrosbanercolor;  
+            text-align: center;
+            margin-top: 9px;
+            font-size: 100px;
+        }
+    
+            h2 {
+    
+                color:$nosotrosbanercolor;  
+                text-align: center;
+                margin-top: 15px;
+                font-size: 100px;
+            }
+
+             .waves{
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                    left: 0;
+                } 
+    }
+               
+.testimonials{
+
+    padding: 40px 0;
+    background-color: white;
+    color: $textcolor;
+    text-align: center;
+    
+         
+    .inner{
+        max-width: 1200px;
+        margin: auto;
+        overflow: hidden;
+        padding: 0 20px;
+    }
+        
+    }
+.border{
+        @include tamanios (5px, 160px);
+        margin: 26px auto;
+        background: rgba(207, 18, 18, 0.836);
+        }
+.row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .col{
+            flex:33.33%;
+            max-width:33.33%;
+            box-sizing: border-box;
+            padding: 15px;
+        }
+
+        .testimonial{
+            color:$textcolor;
+            padding: 30px;
+
+            img{
+                @include tamanios (100px, 100px);
+                border-radius: 50%;
+            }
+        }
+
+        }
+.name{
+        font-size: 20px;
+        text-transform: uppercase;
+        margin:  20px 0;
+
+        }
+
+.stars{
+        color:  rgba(207, 18, 18, 0.836);
+        margin-bottom: 20px;
+    }
+
+
+        
+
+
+    
+    

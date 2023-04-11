@@ -1,0 +1,20 @@
+//extends
+
+
+
+//mixins
+
+@mixin tamanios ($height,$width)
+{
+    height: $height;
+    width: $width;
+}
+
+//maps
+$imagenes:(
+    'banernosotros': url('../imagenes/Coffe-maker.jpg'), 
+    'banerhistoria': url('../imagenes/nico-M0yaEhp8KTc-unsplash\ \(1\).jpg'),
+    'banercafe': url('../imagenes/cafe-negro.jpg')
+    'banertazas': url('../imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg')
+
+)

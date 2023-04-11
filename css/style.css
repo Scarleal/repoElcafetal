@@ -5,10 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 15px;
-    box-sizing: border-box;
-    font-family: 'Edu NSW ACT Foundation', cursive;
-  
-    
+    font-family: 'Edu NSW ACT Foundation', cursive; 
 }
 
 .body{
@@ -19,6 +16,8 @@
    
 }
 
+/*NAV BAR*/ 
+
 .navbotonera{
     color:rgb(34, 32, 32);
     background-color: beige;
@@ -28,78 +27,115 @@
 .navbotonera img{
     height: 20px;
 }
+.zindex{
+    z-index: 1000;
+}
 
-
+/*BANNER INDEX*/ 
 .containernosotros{
     display: flex;
     width: 100%;
-    height: 100vh;
-   
-    
+    height: 100vh;   
 }
 
 .banernosotros {
     background: url('../imagenes/Coffe-maker.jpg');
+    overflow: hidden;
     background-size: cover;
+    background-repeat: no-repeat;
     opacity: 0.6;
     width: 100%;
     height: 100%;
+    position: relative;
 }
-.banernosotros h1{
+
+.banernosotros h1 {
     color:rgb(249, 249, 238);  
     text-align: center;
-    margin-top: 200px;
+    margin-top: 9px;
     font-size: 100px;
 }
-.commentscontainer{
-    
-    margin-top: 10px;
+
+.banernosotros h2 {
+
+    color:rgb(249, 249, 238);  
+    text-align: center;
+    margin-top: 15px;
+    font-size: 100px;
+}
+.banernosotros .waves{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+/*SECCION COMENTARIOS*/ 
+
+.testimonials{
+    padding: 40px 0;
+    background-color: white;
+    color:  rgb(34, 32, 32);
+    text-align: center;
+}
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.border{
+    width: 160px;
+    height: 5px;
+    margin: 26px auto;
+    background: rgba(207, 18, 18, 0.836);
+}
+.row{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
-
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.textcontainer{
-    margin-top: 10px;
-    height: 300px;
-    width: 300px;
-    border: 3px solid rgb(206, 126, 140);
-    border-radius: 3px;
-
+.col{
+    flex:33.33%;
+    max-width:33.33%;
+    box-sizing: border-box;
+    padding: 15px;
 }
-.imgnosotros{
-    height: 100px;
+.testimonial{
+    color:  rgb(34, 32, 32);
+    padding: 30px;
+}
+.testimonial img{
     width: 100px;
-    padding: 10px;
-    padding-right: 10px;
-  
-    
+    height: 100px;
+    border-radius: 50%;
+}
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin:  20px 0;
 }
 
-
+.stars{
+    color:  rgba(207, 18, 18, 0.836);
+    margin-bottom: 20px;}
 
 #footer{
     margin-top: 10px;
     text-align: center;
     height:50px;
-    background-color: beige;
-    
-}
-/* Celullar index*/
-@media (min-width:320px) and (max-width:768px){
-    
-    .commentscontainer{
-        margin-top: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        background-color: beige;
-        align-items: center;
-    
-    }
-}
+    background-color: beige;}
 
+@media screen and (max-width:960px) {
+    .col{
+        flex:100%;
+        max-width: 80%;
+    }}
+
+@media screen and (max-width:600px) {
+    .col{
+        flex:100%;
+        max-width: 100%;
+    }}
 
 /* NOSOTROS */
 .nosotros{
@@ -112,11 +148,15 @@
     background-image: url("../imagenes/nico-M0yaEhp8KTc-unsplash\ \(1\).jpg");
     background-size:cover;
     background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
     width: 100%;
     height: 100%;
-    opacity: .5;
+    opacity: .6;
    
 }
+
+
 
 .textohistoria{
     width: 100%;
@@ -322,75 +362,79 @@
 
 
 
- 
- /* Ubicacion-contacto, dejo esto comentado por el momento ya que estoy usando BS 
-
- .contenedor{
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    border: 10px solid blue;
-    padding: 3px;
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: minmax(80px, 300px) 1fr 1fr 1fr;
-    grid-template-rows: 50px 300px 200px 200px;
-    grid-template-areas:
-    "tres uno uno cuatro" 
-    "tres uno uno cuatro" 
-    "dos uno uno cuatro " 
-    "dos  uno uno cuatro"; 
-}
- .img{
-    grid-area: uno;
-    background: url("/imagenes/Girl-drinking-coffe.jpg");
-    background-size: cover;
-    background-position: cover;
-    border: 10px solid red;
-    height: 700px;
-    
- }
- .coment{
-    
-    grid-area: dos;
-    border: 10px solid blue;
-    height: 300px;
-    text-align: center;
-    padding-bottom: 5px;
-   
- }
-
- .tel{
-    grid-area: tres;
-border: 10px solid pink;
-height: 300px;
-text-align: center;
-
-
- }
-
- .mapa{
-    grid-area: cuatro;
-    border: 10px solid yellow;
-    height: 350px;
-    text-align: center;
- }
-
- */
-
   /* Ubicacion-contacto BS */
 .bs-bg{
     background-color: beige;
 }
 
+.testimonials{
+    padding: 40px 0;
+    background-color: white;
+    color:  rgb(34, 32, 32);
+    text-align: center;
+}
 
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
 
+.border{
+    width: 160px;
+    height: 5px;
+    margin: 26px auto;
+    background: rgba(207, 18, 18, 0.836);
+}
 
- 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.col{
+    flex:33.33%;
+    max-width:33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
 
+.testimonial{
+    color:  rgb(34, 32, 32);
+    padding: 30px;
 
+}
+.testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
 
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin:  20px 0;
+}
 
+.stars{
+    color:  rgba(207, 18, 18, 0.836);
+    margin-bottom: 20px;
+}
 
+@media screen and (max-width:960px) {
+    .col{
+        flex:100%;
+        max-width: 80%;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .col{
+        flex:100%;
+        max-width: 100%;
+    }
+    
+}
