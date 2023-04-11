@@ -22,8 +22,9 @@
     color:rgb(34, 32, 32);
     background-color: beige;
     height: 50px;
-    width: 100vw;
+    width: 100%;
 }
+
 .navbotonera img{
     height: 20px;
 }

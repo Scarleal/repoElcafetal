@@ -5,7 +5,7 @@
    
 
     .banernosotros{
-        background: map-get($map: $imagenes, $key:banerhistoria);
+        background: map-get($map: $imagenes, $key:baneornosotros);
         @include tamanios ( 100%, 100%);
         overflow: hiden;
         background-size: cover;
