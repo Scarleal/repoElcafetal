@@ -1,7 +1,13 @@
 //extends
-
-
-
+.banners{
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
 //mixins
 
 @mixin tamanios ($height,$width)
@@ -9,7 +15,23 @@
     height: $height;
     width: $width;
 }
+@mixin DWH ($display, $width, $height) 
+{
+    display: $display;
+    width: $width;
+    height: $height;
 
+}
+@mixin PWH ($position, $width, $height) {
+    position: $position;
+    width: $width;
+    height: $height;
+}
+@mixin text ($fonts, $texta, $margint) {
+    font-size: $fonts;
+    text-align: $texta;
+    margin-top: $margint;
+}
 //maps
 $imagenes:(
     'banernosotros': url('../imagenes/Coffe-maker.jpg'), 
@@ -17,4 +39,4 @@ $imagenes:(
     'banercafe': url('../imagenes/cafe-negro.jpg'),
     'banertazas': url('../imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg'),
 
-)
+);

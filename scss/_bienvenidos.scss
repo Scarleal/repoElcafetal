@@ -1,47 +1,46 @@
-.containernosotros{
+.containernosotros
+{
     display: flex;
     @include tamanios(100vh, 100%);
    
    
 
-    .banernosotros{
-        background: map-get($map: $imagenes, $key:baneornosotros);
+    .banernosotros
+    {
+        background: map-get($map: $imagenes, $key:banernosotros);
         @include tamanios ( 100%, 100%);
-        overflow: hiden;
-        background-size: cover;
-        opacity: 0.6;
-        position: relative;
-      
+        @extend .banners;
     }
 
-    h1 {
+     
+
+    h1 
+    {
         color:$nosotrosbanercolor;  
-        text-align: center;
-        margin-top: 9px;
-        font-size: 100px;
+        @include text (100px, center, 9px);
+        
     }
     
-    h2 {
-
-        color:$nosotrosbanercolor;  
-        text-align: center;
-        margin-top: 15px;
-        font-size: 100px;
+    h2 
+    {
+        color:$nosotrosbanercolor; 
+        @include text (100px, center, 15px); 
     }
 
-    .waves{
+    .waves
+    {
         position: absolute;
         bottom: 0;
         width: 100%;
         left: 0;
     } 
- }
+}
                
 .testimonials
 {
 
     padding: 40px 0;
-    background-color: white;
+    background-color: $testibackground;
     color: $textcolor;
     text-align: center;
     
@@ -58,7 +57,7 @@
 .border{
         @include tamanios (5px, 160px);
         margin: 26px auto;
-        background: rgba(207, 18, 18, 0.836);
+        background: $testicolorbanerstars;
         }
 .row{
         display: flex;
@@ -91,13 +90,40 @@
         }
 
 .stars{
-        color:  rgba(207, 18, 18, 0.836);
+        color: $testicolorbanerstars;
         margin-bottom: 20px;
     }
 
-
+    @media screen and (max-width:960px) {
+        .col{
+            flex:100%;
+            max-width: 80%;
+        }
+        .banernosotros h1 {
+            @include text (55px,center,9px);
+            color:$nosotrosbanercolor;  
+        }
         
-
+        .banernosotros h2 
+        {
+            @include text (65px,center,15px);
+            color:$nosotrosbanercolor;  
+        }
+    }
+    
+    @media screen and (min-width:965px) and (max-width: 1168px)
+     {
+        .col{
+            flex:100%;
+            max-width: 100%;
+        }
+        .banernosotros h2 
+        {
+            @include text (70px,center,15px); 
+            color:$nosotrosbanercolor;
+        }
+    }
+    
 
     
     

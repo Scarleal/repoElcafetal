@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Libre+Caslon+Text:ital@1&family=Noto+Sans+JP:wght@300&family=Open+Sans&family=Raleway:ital,wght@1,100&family=Roboto:wght@300&display=swap");
+.banners, .containernosotros .banernosotros {
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +23,7 @@
   align-items: center;
 }
 
-#footer {
+footer {
   margin-top: 10px;
   text-align: center;
   height: 50px;
@@ -30,30 +40,31 @@
   height: 20 px;
 }
 
+.zindex {
+  z-index: 1000;
+}
+
 .containernosotros {
   display: flex;
   height: 100vh;
   width: 100%;
 }
 .containernosotros .banernosotros {
+  background: url("../imagenes/Coffe-maker.jpg");
   height: 100%;
   width: 100%;
-  overflow: hiden;
-  background-size: cover;
-  opacity: 0.6;
-  position: relative;
 }
 .containernosotros h1 {
   color: rgb(249, 249, 238);
+  font-size: 100px;
   text-align: center;
   margin-top: 9px;
-  font-size: 100px;
 }
 .containernosotros h2 {
   color: rgb(249, 249, 238);
+  font-size: 100px;
   text-align: center;
   margin-top: 15px;
-  font-size: 100px;
 }
 .containernosotros .waves {
   position: absolute;
@@ -114,8 +125,38 @@
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 960px) {
+  .col {
+    flex: 100%;
+    max-width: 80%;
+  }
+  .banernosotros h1 {
+    font-size: 55px;
+    text-align: center;
+    margin-top: 9px;
+    color: rgb(249, 249, 238);
+  }
+  .banernosotros h2 {
+    font-size: 65px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(249, 249, 238);
+  }
+}
+@media screen and (min-width: 965px) and (max-width: 1168px) {
+  .col {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .banernosotros h2 {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(249, 249, 238);
+  }
+}
 .containernosotros {
-  display: flex;
+  position: flex;
   width: 100%;
   height: 100vh;
 }
@@ -128,9 +169,9 @@
 }
 .containernosotros h1 {
   color: rgb(249, 249, 238);
+  font-size: 100px;
   text-align: center;
   margin-top: 200px;
-  font-size: 100px;
 }
 
 .commentscontainer {
@@ -140,9 +181,9 @@
   justify-content: space-evenly;
 }
 .commentscontainer .textcontainer {
-  margin-top: 10px;
   height: 300px;
   width: 300px;
+  margin-top: 10px;
   border: 3px solid rgb(206, 126, 140);
   border-radius: 3px;
 }
@@ -153,19 +194,29 @@
   padding-right: 10px;
 }
 
-#footer {
-  margin-top: 10px;
-  text-align: center;
-  height: 50px;
-  background-color: beige;
+@media (min-width: 320px) and (max-width: 768px) {
+  .textohistoria h1 {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(34, 32, 32);
+  }
+  .textohistoria p {
+    width: 60%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
 }
-
 .cafe {
   width: 100vw;
   height: 5px;
 }
 .cafe .banercafe {
-  background-image: url("/imagenes/cafe-corazon.jpg");
+  background-image: url("../imagenes/cafe-negro.jpg");
   opacity: 0.3;
   background-size: cover;
   height: 870px;
@@ -185,14 +236,14 @@
   margin-top: 10px;
 }
 .section-cafe .cafe-contenedor {
-  border-radius: 10px;
-  margin-top: 10px;
+  position: relative;
   width: 350px;
   height: 350px;
-  margin: 20px;
-  position: relative;
-  padding-bottom: 300px;
   border: 3px solid rgb(206, 126, 140);
+  border-radius: 10px;
+  margin-top: 10px;
+  margin: 20px;
+  padding-bottom: 300px;
   border-width: 3px;
   border-radius: 10px;
 }
@@ -202,21 +253,48 @@
   padding-left: 5px;
 }
 .section-cafe img {
+  position: relative;
   width: 200px;
   height: 200px;
   top: 70px;
-  position: relative;
   display: flex;
   left: 80px;
   top: 10px;
 }
 
+@media (max-width: 576px) {
+  .banercafe {
+    background-image: url("../imagenes/cafe-negro.jpg");
+    opacity: 0.3;
+    background-size: cover;
+    height: 2500px;
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 960px) {
+  .banercafe {
+    background-image: url("../imagenes/cafe-negro.jpg");
+    opacity: 0.3;
+    background-size: cover;
+    height: 1280px;
+    width: 100vw;
+  }
+}
+@media screen and (min-width: 1580px) and (max-width: 2000px) {
+  .section-cafe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+}
 .container-tazas {
-  width: 100vw;
   height: 5px;
+  width: 100vw;
 }
 .container-tazas .banertazas {
-  background-image: url("/imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg");
+  background: url("../imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg");
   opacity: 0.3;
   background-size: cover;
   height: 1045px;
@@ -228,21 +306,21 @@
   padding-bottom: 10px;
 }
 .text-tazas div {
-  border-radius: 10px;
-  margin-top: 10px;
+  position: relative;
   width: 400px;
   height: 400px;
-  margin: 30px;
-  position: relative;
   border-color: 3px solid rgb(206, 126, 140);
+  border-radius: 10px;
+  margin-top: 10px;
+  margin: 30px;
   border-radius: 10px;
   border-style: ridge;
   border-width: 3px;
 }
 .text-tazas img {
-  width: 200px;
-  height: 250px;
   position: absolute;
+  width: 200px;
+  height: 200px;
   left: 80px;
   top: 10px;
 }
@@ -259,21 +337,21 @@
   padding-bottom: 10px;
 }
 .text-tazas .box-taza {
-  border-radius: 10px;
-  margin-top: 10px;
+  position: relative;
   width: 400px;
   height: 400px;
-  margin: 30px;
-  position: relative;
   border-color: 3px solid rgb(206, 126, 140);
+  border-radius: 10px;
+  margin-top: 10px;
+  margin: 30px;
   border-radius: 10px;
   border-style: ridge;
   border-width: 3px;
 }
 .text-tazas .taza {
+  position: absolute;
   width: 200px;
   height: 250px;
-  position: absolute;
   left: 80px;
   top: 10px;
 }
@@ -284,6 +362,36 @@
   padding-left: 5px;
 }
 
+@media screen and (max-width: 960px) {
+  .banercafe {
+    background: url("../imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg");
+    height: 1280px;
+    width: 100vw;
+    opacity: 0.3;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 1580px) and (max-width: 2000px) {
+  .section-cafe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+}
 .bs-bg {
-  background-color: beige;
+  background-color: whitesmoke;
+}
+
+.claseprueba {
+  border: 3px solid rgb(206, 126, 140);
+  border-radius: 5px;
+}
+
+.claseprueba1 h1 {
+  color: rgb(206, 126, 140);
+}
+.claseprueba1 h2 {
+  color: rgb(206, 126, 140);
 }/*# sourceMappingURL=main.css.map */

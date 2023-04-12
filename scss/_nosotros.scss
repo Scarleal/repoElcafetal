@@ -1,7 +1,6 @@
-    .containernosotros{
-        display: flex;
-        width: 100%;
-        height: 100vh;
+    .containernosotros
+    {  @include PWH (flex,100%,100vh);
+      
         
         .banernosotros {
             background-image: map-get($map: $imagenes, $key:banerhistoria);
@@ -10,45 +9,51 @@
             width: 100%;
             height: 100%;
         }
-        h1{
+        h1
+        {
             color:$nosotrosbanercolor;  
-            text-align: center;
-            margin-top: 200px;
-            font-size: 100px;
+            @include text (100px, center, 200px);
         }  
     }
 
-    .commentscontainer{
+    .commentscontainer
+    {
     
         margin-top: 10px;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
 
-        .textcontainer{
+        .textcontainer
+        { @include tamanios (300px, 300px);
             margin-top: 10px;
-            height: 300px;
-            width: 300px;
             border: $border;
             border-radius: 3px;
         
         }
-        .imgnosotros{
-            height: 100px;
-            width: 100px;
+
+        .imgnosotros
+        {   @include tamanios (100px, 100px);
             padding: 10px;
             padding-right: 10px;
-          
-            
         }
-        
-    
     }
 
-    #footer{
-        margin-top: 10px;
-        text-align: center;
-        height:50px;
-        background-color: beige;
+    @media (min-width:320px) and (max-width:768px)
+    {
+    
+        .textohistoria h1{
+            @include text(70px,center,100px);
+            color:$textcolor;
+        }
+        .textohistoria p{
+            width: 60%;
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 1px;
+            margin-bottom: 5px;
+            font-size: 15px;
         
-    }
+        }
+    }  

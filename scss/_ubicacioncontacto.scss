@@ -1,3 +1,22 @@
-.bs-bg{
-    background-color: beige;
+.bs-bg
+{
+    background-color: whitesmoke;
+}
+
+.claseprueba
+{
+    border:$border;
+    border-radius: 5px;
+}
+
+.claseprueba1
+{
+    h1{
+        color: $bordercolor;
+    }
+
+    h2{
+        color:$bordercolor;
+    }
+    
 }

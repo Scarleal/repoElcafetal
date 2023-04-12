@@ -130,13 +130,37 @@ footer{
     .col{
         flex:100%;
         max-width: 80%;
-    }}
+    }
+    .banernosotros h1 {
+        color:rgb(249, 249, 238);  
+        text-align: center;
+        margin-top: 9px;
+        font-size: 55px;
+    }
+    
+    .banernosotros h2 {
+    
+        color:rgb(249, 249, 238);  
+        text-align: center;
+        margin-top: 15px;
+        font-size: 65px;
+    }
+}
 
-@media screen and (max-width:600px) {
+@media screen and (min-width:965px) and (max-width: 1168px)
+ {
     .col{
         flex:100%;
         max-width: 100%;
-    }}
+    }
+    .banernosotros h2 {
+    
+        color:rgb(249, 249, 238);  
+        text-align: center;
+        margin-top: 15px;
+        font-size: 70px;
+    }
+}
 
 /* NOSOTROS */
 .nosotros{
@@ -153,8 +177,7 @@ footer{
     position: relative;
     width: 100%;
     height: 100%;
-    opacity: .6;
-   
+    opacity: .6; 
 }
 
 
@@ -205,6 +228,9 @@ footer{
     }
 }
 
+
+
+
 /* Cafe */
 
 .cafe
@@ -218,6 +244,7 @@ footer{
     opacity: .3;
     background-size: cover;
     height: 870px;
+
    
 }
 
@@ -287,7 +314,29 @@ footer{
     }
     
 }
+@media screen and (max-width:960px) {
 
+    .banercafe{
+        background-image: url("../imagenes/cafe-corazon.jpg");
+        opacity: .3;
+        background-size: cover;
+        height: 1280px;
+        width:100vw ;
+       
+    }
+
+ 
+}
+@media screen and (min-width:1580px) and (max-width:2000px){
+    .section-cafe{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+}
 /* tazas */
 .container-tazas{
     width: 100vw;   
@@ -324,7 +373,7 @@ footer{
     height: 400px;
     margin: 30px;
     position: relative;
-    border-color: rgb(206, 126, 140);
+    border: 3px solid rgb(238, 154, 145);
     border-radius: 10px;
     border-style: ridge;
     border-width: 3px;
@@ -361,9 +410,55 @@ footer{
     
 }
 
+@media screen and (max-width:960px){
+    .banertazas
+    {
+    background-image: url('../imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg');
+    opacity: .3;
+    background-size: cover;
+    height: 2870px;
+    } 
 
+    .flex-taza{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly; 
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width:1580px) and (max-width:2000px)
+
+{
+    .flex-taza{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly; 
+        margin-top: 10px;
+    }
+}
 
   /* Ubicacion-contacto BS */
 .bs-bg{
     background-color: whitesmoke;
+}
+
+.claseprueba{
+    border:  3px solid rgb(238, 154, 145);
+    border-radius: 5px;
+}
+
+.claseprueba1{
+    
+    color: rgb(238, 154, 145);
+}
+.claseprueba1 h2 {
+
+    color: rgb(238, 154, 145);
+}
+
+.claseprueba1 h3 {
+    color: rgb(238, 154, 145);
 }

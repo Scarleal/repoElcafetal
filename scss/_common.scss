@@ -19,7 +19,7 @@
 }
 
 
-#footer{
+footer{
     margin-top: 10px;
     text-align: center;
     height:50px;
@@ -35,4 +35,8 @@
     img{
         height: $navimg;
     }
+}
+
+.zindex{
+    z-index: 1000;
 }
