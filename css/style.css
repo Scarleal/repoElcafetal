@@ -305,7 +305,7 @@ footer{
 {
     
     .banercafe{
-        background-image: url("../imagenes/cafe-corazon.jpg");
+        background-image: url("../imagenes/Cafe/cafe-negro.jpg");
         opacity: .3;
         background-size: cover;
         height: 2500px;
@@ -328,7 +328,7 @@ footer{
 {
 
     .banercafe{
-        background-image: url("../imagenes/cafe-corazon.jpg");
+        background-image: url("../imagenes/Cafe/cafe-negro.jpg");
         opacity: .3;
         background-size: cover;
         height: 1270px;
@@ -348,7 +348,7 @@ footer{
     margin-top: 10px;}
 
     .banercafe{
-        background-image: url("../imagenes/cafe-corazon.jpg");
+        background-image: url("../imagenes/cafe-negro.jpg");
         opacity: .3;
         background-size: cover;
         height: 1275px;
@@ -366,7 +366,7 @@ footer{
     margin-top: 10px;}
 
     .banercafe{
-        background-image: url("../imagenes/cafe-corazon.jpg");
+        background-image: url("../imagenes/Cafe/cafe-negro.jpg");
         opacity: .3;
         background-size: cover;
         height: 890px;
@@ -376,7 +376,6 @@ footer{
 }
 
 
-/* tazas */
 .container-tazas{
     width: 100vw;   
     height: 5px;
@@ -385,7 +384,7 @@ footer{
 
 .banertazas{
     
-    background-image: url('../imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg');
+    background-image: url('../imagenes/Tazas/nathan-dumlao-6VhPY27jdps-unsplash.jpg');
     opacity: .3;
     background-size: cover;
     height: 1045px;

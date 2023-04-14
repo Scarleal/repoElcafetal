@@ -216,7 +216,7 @@ footer {
   height: 5px;
 }
 .cafe .banercafe {
-  background-image: url("../imagenes/cafe-negro.jpg");
+  background-image: url("../imagenes/Cafe/cafe-negro.jpg");
   opacity: 0.3;
   background-size: cover;
   height: 870px;
@@ -264,7 +264,7 @@ footer {
 
 @media (min-width: 300px) and (max-width: 767px) {
   .banercafe {
-    background-image: url("../imagenes/cafe-negro.jpg");
+    background-image: url("../imagenes/Cafe/cafe-negro.jpg");
     height: 2500px;
     width: 100vw;
     opacity: 0.3;
@@ -280,7 +280,7 @@ footer {
 }
 @media (min-width: 768px) and (max-width: 992px) {
   .banercafe {
-    background-image: url("../imagenes/cafe-negro.jpg");
+    background-image: url("../imagenes/Cafe/cafe-negro.jpg");
     height: 1270px;
     width: 100vw;
     opacity: 0.3;
@@ -296,7 +296,7 @@ footer {
     margin-top: 10px;
   }
   .banercafe {
-    background-image: url("../imagenes/cafe-negro.jpg");
+    background-image: url("../imagenes/Cafe/cafe-negro.jpg");
     height: 1275px;
     width: 100vw;
     opacity: 0.3;
@@ -312,7 +312,7 @@ footer {
     margin-top: 10px;
   }
   .banercafe {
-    background-image: url("../imagenes/cafe-negro.jpg");
+    background-image: url("../imagenes/Cafe/cafe-negro.jpg");
     height: 890px;
     width: 100vw;
     opacity: 0.3;
@@ -326,7 +326,7 @@ footer {
   width: 100vw;
 }
 .container-tazas .banertazas {
-  background: url("../imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg");
+  background: url("../imagenes/Tazas/nathan-dumlao-6VhPY27jdps-unsplash.jpg");
   opacity: 0.3;
   background-size: cover;
   height: 1045px;
@@ -411,7 +411,7 @@ footer {
 }
 @media (min-width: 768px) and (max-width: 992px) {
   .banertazas {
-    background: url("../imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg");
+    background: url("../imagenes/Tazas/nathan-dumlao-6VhPY27jdps-unsplash.jpg");
     opacity: 0.3;
     background-size: cover;
     height: 2865px;
@@ -426,7 +426,7 @@ footer {
 }
 @media (min-width: 993px) and (max-width: 1168px) {
   .banertazas {
-    background: url("../imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg");
+    background: url("../imagenes/Tazas/nathan-dumlao-6VhPY27jdps-unsplash.jpg");
     opacity: 0.3;
     background-size: cover;
     height: 1486px;
@@ -441,7 +441,7 @@ footer {
 }
 @media (min-width: 1169px) and (max-width: 1379px) {
   .banertazas {
-    background: url("../imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg");
+    background: url("../imagenes/Tazas/nathan-dumlao-6VhPY27jdps-unsplash.jpg");
     opacity: 0.3;
     background-size: cover;
     height: 1480px;
