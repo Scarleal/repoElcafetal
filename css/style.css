@@ -299,9 +299,9 @@ footer{
    
 }
 
-/* cafe celular  responsive*/
+/* cafe responsive*/
 
-@media (min-width:576px) and  (max-width:767px)
+@media (min-width:300px) and  (max-width:767px)
 {
     
     .banercafe{
@@ -318,7 +318,6 @@ footer{
         justify-content: space-evenly; 
         justify-items: center;
         margin-top: 10px;
-      
     }
 
     
@@ -437,7 +436,7 @@ footer{
 
 /* tazas responsive*/
 
-@media (min-width:576px) and  (max-width:767px)
+@media (min-width:300px) and  (max-width:767px)
 
 {
     
@@ -446,7 +445,7 @@ footer{
         background-image: url('../imagenes/Cafe/nathan-dumlao-6VhPY27jdps-unsplash.jpg');
         opacity: .3;
         background-size: cover;
-        height: 2869px;
+        height: 2920px;
     }
 
     .flex-taza{
