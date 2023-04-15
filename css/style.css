@@ -309,7 +309,13 @@ footer{
 
 @media (min-width:300px) and  (max-width:767px)
 {
-    
+    .text-cafe{
+
+        font-size: 55px;
+        padding-left: 20px;  
+        text-align: center;
+        padding-bottom: 10px;
+    }
     .banercafe{
         background-image: url("../imagenes/Cafe/cafe-negro.jpg");
         opacity: .3;
@@ -451,6 +457,12 @@ footer{
         opacity: .3;
         background-size: cover;
         height: 2920px;
+    }
+    .text-tazas{
+        font-size: 55px;  
+        text-align: center;
+        padding-left: 20px;
+        padding-bottom: 10px;
     }
 
     .flex-taza{
