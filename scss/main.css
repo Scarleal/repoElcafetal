@@ -131,9 +131,9 @@ footer {
     max-width: 80%;
   }
   .banernosotros h1 {
-    font-size: 55px;
+    font-size: 30px;
     text-align: center;
-    margin-top: 9px;
+    margin-top: 180px;
     color: rgb(249, 249, 238);
   }
   .banernosotros h2 {
@@ -147,6 +147,12 @@ footer {
   .col {
     flex: 100%;
     max-width: 100%;
+  }
+  .banernosotros h1 {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 175px;
+    color: rgb(249, 249, 238);
   }
   .banernosotros h2 {
     font-size: 70px;

@@ -134,16 +134,16 @@ footer{
     .banernosotros h1 {
         color:rgb(249, 249, 238);  
         text-align: center;
-        margin-top: 9px;
-        font-size: 55px;
+        margin-top: 180px;
+        font-size: 30px;
     }
     
     .banernosotros h2 {
     
         color:rgb(249, 249, 238);  
         text-align: center;
-        margin-top: 15px;
-        font-size: 65px;
+        margin-top: 10px;
+        font-size: 30px;
     }
 }
 
@@ -153,12 +153,18 @@ footer{
         flex:100%;
         max-width: 100%;
     }
+    .banernosotros h1 {
+        color:rgb(249, 249, 238);  
+        text-align: center;
+        margin-top: 175px;
+        font-size: 70px;
+    }
     .banernosotros h2 {
     
         color:rgb(249, 249, 238);  
         text-align: center;
         margin-top: 15px;
-        font-size: 70px;
+        font-size: 29px;
     }
 }
 

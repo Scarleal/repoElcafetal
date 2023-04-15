@@ -100,7 +100,7 @@
             max-width: 80%;
         }
         .banernosotros h1 {
-            @include text (55px,center,9px);
+            @include text (30px,center,180px);
             color:$nosotrosbanercolor;  
         }
         
@@ -116,6 +116,10 @@
         .col{
             flex:100%;
             max-width: 100%;
+        }
+        .banernosotros h1 {
+            @include text (70px,center,175px);
+            color:$nosotrosbanercolor;  
         }
         .banernosotros h2 
         {
