@@ -276,6 +276,12 @@ footer {
     opacity: 0.3;
     background-size: cover;
   }
+  .text-cafe {
+    font-size: 55px;
+    padding-left: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
   .section-cafe {
     display: flex;
     flex-wrap: wrap;
@@ -406,6 +412,12 @@ footer {
     opacity: 0.3;
     background-size: cover;
     height: 2869px;
+  }
+  .text-tazas {
+    font-size: 55px;
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 10px;
   }
   .flex-taza {
     display: flex;
