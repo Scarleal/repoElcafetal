@@ -467,9 +467,9 @@ footer{
         height: 2920px;
     }
     .text-tazas{
-        font-size: 55px;  
+        font-size: 50px;  
         text-align: center;
-        padding-left: 20px;
+        padding-left: 42px;
         padding-bottom: 10px;
     }
 
@@ -504,7 +504,7 @@ footer{
     .text-tazas{
         font-size: 55px;  
         text-align: center;
-        padding-left: 20px;
+        padding-left: 25px;
         padding-bottom: 10px;
     }
 }
