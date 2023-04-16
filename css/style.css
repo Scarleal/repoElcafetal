@@ -337,7 +337,13 @@ footer{
 }
 @media (min-width:768px) and (max-width:1023px)
 
-{
+{ .section-cafe{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin-top: 75px;
+}
 
     .banercafe{
         background-image: url("../imagenes/Cafe/cafe-negro.jpg");
@@ -355,6 +361,8 @@ footer{
         text-align: center;
         padding-bottom: 10px;
     }
+
+   
 
  
 }
