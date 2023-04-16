@@ -307,7 +307,7 @@ footer{
 
 /* cafe responsive*/
 
-@media (min-width:300px) and  (max-width:767px)
+@media screen and (max-width:767px)
 {
     .text-cafe{
 
@@ -335,7 +335,7 @@ footer{
     
     
 }
-@media (min-width:768px) and (max-width:992px)
+@media (min-width:768px) and (max-width:1023px)
 
 {
 
@@ -358,42 +358,30 @@ footer{
 
  
 }
-@media (min-width:993px) and (max-width:1168px)
+@media  (min-width:1024px)
 {
-    .section-cafe{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 10px;}
 
     .banercafe{
-        background-image: url("../imagenes/cafe-negro.jpg");
+        background-image: url("../imagenes/Cafe/cafe-negro.jpg");
         opacity: .3;
         background-size: cover;
         height: 1275px;
         width:100vw ;
        
     }
-}
-@media (min-width:1169px) and (max-width:1400px)
-{
-    .section-cafe{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 10px;}
-
-    .banercafe{
-        background-image: url("../imagenes/Cafe/cafe-negro.jpg");
-        opacity: .3;
-        background-size: cover;
-        height: 890px;
-        width:100vw ;
-       
+    .section-cafe
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 10px;
     }
 }
+
+    
+
+
 
 
 .container-tazas{

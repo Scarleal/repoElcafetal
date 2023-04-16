@@ -268,19 +268,20 @@ footer {
   top: 10px;
 }
 
-@media (min-width: 300px) and (max-width: 767px) {
-  .banercafe {
-    background-image: url("../imagenes/Cafe/cafe-negro.jpg");
-    height: 2500px;
-    width: 100vw;
-    opacity: 0.3;
-    background-size: cover;
-  }
+/* cafe responsive*/
+@media screen and (max-width: 767px) {
   .text-cafe {
-    font-size: 50px;
-    padding-left: 25px;
+    font-size: 55px;
+    padding-left: 20px;
     text-align: center;
     padding-bottom: 10px;
+  }
+  .banercafe {
+    background-image: url("../imagenes/Cafe/cafe-negro.jpg");
+    opacity: 0.3;
+    background-size: cover;
+    height: 2500px;
+    width: 100vw;
   }
   .section-cafe {
     display: flex;
@@ -290,53 +291,35 @@ footer {
     margin-top: 10px;
   }
 }
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .banercafe {
     background-image: url("../imagenes/Cafe/cafe-negro.jpg");
-    height: 1270px;
-    width: 100vw;
     opacity: 0.3;
     background-size: cover;
+    height: 1270px;
+    width: 100vw;
   }
   .text-cafe {
     font-size: 55px;
-    padding-left: 25px;
+    padding-left: 20px;
     text-align: center;
     padding-bottom: 10px;
   }
 }
-@media (min-width: 993px) and (max-width: 1168px) {
-  .section-cafe {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 10px;
-  }
+@media (min-width: 1024px) {
   .banercafe {
     background-image: url("../imagenes/Cafe/cafe-negro.jpg");
+    opacity: 0.3;
+    background-size: cover;
     height: 1275px;
     width: 100vw;
-    opacity: 0.3;
-    background-size: cover;
   }
-}
-@media (min-width: 1169px) and (max-width: 1400px) {
   .section-cafe {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 10px;
-  }
-  .banercafe {
-    background-image: url("../imagenes/Cafe/cafe-negro.jpg");
-    height: 890px;
-    width: 100vw;
-    opacity: 0.3;
-    background-size: cover;
-    height: 890px;
-    width: 100vw;
   }
 }
 .container-tazas {
