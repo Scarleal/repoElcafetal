@@ -269,7 +269,7 @@ footer {
 }
 
 /* cafe responsive*/
-@media (max-width: 767px) {
+@media (min-width: 300px) and (max-width: 767px) {
   .text-cafe {
     font-size: 55px;
     padding-left: 20px;
