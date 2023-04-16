@@ -307,7 +307,7 @@ footer{
 
 /* cafe responsive*/
 
-@media screen and (max-width:767px)
+@media (min-width: 300px) and (max-width: 767px)
 {
     .text-cafe{
 
@@ -335,7 +335,7 @@ footer{
     
     
 }
-@media (min-width:768px) and (max-width:1023px)
+@media (min-width: 768px) and (max-width: 992px)
 
 { .section-cafe{
     display: flex;
@@ -365,6 +365,18 @@ footer{
    
 
  
+}
+
+@media (min-width: 993px) and (max-width: 1168px)
+{
+    .banercafe{
+        background-image: url("../imagenes/Cafe/cafe-negro.jpg");
+        opacity: .3;
+        background-size: cover;
+        height: 1270px;
+        width:100vw ;
+       
+    }
 }
 @media  (min-width:1024px)
 {

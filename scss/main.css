@@ -291,7 +291,7 @@ footer {
     margin-top: 10px;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .section-cafe {
     display: flex;
     flex-direction: row;
