@@ -277,8 +277,8 @@ footer {
     background-size: cover;
   }
   .text-cafe {
-    font-size: 55px;
-    padding-left: 20px;
+    font-size: 50px;
+    padding-left: 25px;
     text-align: center;
     padding-bottom: 10px;
   }
@@ -297,6 +297,12 @@ footer {
     width: 100vw;
     opacity: 0.3;
     background-size: cover;
+  }
+  .text-cafe {
+    font-size: 50px;
+    padding-left: 25px;
+    text-align: center;
+    padding-bottom: 10px;
   }
 }
 @media (min-width: 993px) and (max-width: 1168px) {

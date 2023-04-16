@@ -347,7 +347,8 @@ footer{
         width:100vw ;
        
     }
-    .text-cafe{
+    .text-cafe
+    {
 
         font-size: 55px;
         padding-left: 20px;  
@@ -543,11 +544,6 @@ footer{
     }
 }
 
-
-
-
-
-
   /* Ubicacion-contacto BS */
 .bs-bg{
     background-color: whitesmoke;
@@ -559,9 +555,9 @@ footer{
 }
 
 .claseprueba1{
-    
     color: rgb(238, 154, 145);
 }
+
 .claseprueba1 h2 {
 
     color: rgb(238, 154, 145);
