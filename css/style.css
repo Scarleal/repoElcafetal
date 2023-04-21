@@ -191,14 +191,14 @@ footer{
 .textohistoria{
     width: 100%;
     position: absolute;
-    height: 40%;
+    height: 30%;
     text-align: center;
     left: 0;
     top:0;
 }
 
 .textohistoria p{
-    width: 60%;
+    width: 50%;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -209,9 +209,16 @@ footer{
 }
 .textohistoria h1{
     color:rgb(34, 32, 32);
-    font-size: 87px;
+    font-size: 50px;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 20px;
+}
+
+
+.textohistoria img{
+    width: 200px;
+    height: 230x;
+    border-radius: 5px;
 }
 /*nosotros celular  responsive*/
 @media (min-width:320px) and (max-width:768px){
