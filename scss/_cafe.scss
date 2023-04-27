@@ -56,7 +56,18 @@
   /* cafe responsive*/
 
 @media (min-width: 300px) and (max-width: 767px)
+
 {
+
+    .navbar-collapse{
+        background-color: rgb(253, 253, 243);
+        padding-left: 10px;
+        }
+    
+        .navbarp{
+            padding: 0 !important;
+        }
+        
     .text-cafe
     {
 
